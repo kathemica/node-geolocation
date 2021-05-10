@@ -1,0 +1,32 @@
+{
+  "name": "nodegeolocation",
+  "version": "1.0.0",
+  "description": "Node geolocation excersice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathemica/node-geolocation.git"
+  },
+  "keywords": [
+    "node",
+    "geolocation"
+  ],
+  "author": "Katherine Aguirre",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kathemica/node-geolocation/issues"
+  },
+  "homepage": "https://github.com/kathemica/node-geolocation#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.7"
+  }
+}
